@@ -1,0 +1,31 @@
+{
+  "$comment": "Metadata for skills.sh registry and compatible tools. The actual skill definition lives in SKILL.md.",
+  "name": "serenity-a-shares",
+  "description": "A股版的 Serenity (@aleabitoreddit) chokepoint 选股框架 skill：把美股 AI/半导体供应链卡脖子选股法移植到 A 股，覆盖产业链分析、信号拼图、风控约束。",
+  "version": "0.1.0",
+  "skill_path": "./SKILL.md",
+  "license": "MIT",
+  "tags": [
+    "investing",
+    "a-shares",
+    "stocks",
+    "supply-chain",
+    "semiconductor",
+    "ai-infrastructure",
+    "chinese-market",
+    "chokepoint-analysis"
+  ],
+  "language": "zh-CN",
+  "compatible_agents": [
+    "claude-code",
+    "claude-ai",
+    "cursor",
+    "opencode",
+    "codex"
+  ],
+  "based_on": [
+    "https://github.com/yan-labs/serenity-aleabitoreddit",
+    "https://github.com/leslieyeo/serenity-reply"
+  ],
+  "disclaimer": "Decision-support only. Not financial advice. Does not place orders or replace user due diligence."
+}
